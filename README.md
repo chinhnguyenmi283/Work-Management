@@ -27,3 +27,32 @@ A personal web application to manage tasks, track progress, and synchronize task
 - Database: SQLModel and SQLite
 - Outlook Interaction: pywin32
 - Language: Python 3
+
+## 🚀 Installation and Setup
+1. **Clone the repository:**
+   ```bash
+   git clone <your-repository-url>
+   cd <repository-folder>
+   ```
+2. **Install the required packages:**
+   ```bash
+   pip install nicegui sqlmodel pywin32
+   ```
+3. **Run the application:**
+   ```bash
+   python main.py
+   ```
+
+## 📂 Folder Structure
+```text
+.
+├── components/         # Reusable UI components (sidebar, cards, ...)
+│   ├── cards.py
+│   ├── navigation.py
+│   └── sidebar.py
+├── pages/              # Main pages of the application (dashboard, tasks, ...)
+├── main.py             # Application entry point, initializes DB and runs UI
+├── outlook_service.py  # Logic for synchronizing with Outlook
+├── upload_data.py      # Defines models (SQLModel) and CRUD functions for the database
+└── database.db         # SQLite database file (auto-generated)
+```
