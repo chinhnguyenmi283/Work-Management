@@ -1,0 +1,18 @@
+# Python bytecode (file rác khi chạy code)
+__pycache__/
+*.py[cod]
+
+# Database (Tránh đẩy dữ liệu nội bộ lên GitHub)
+*.db
+*.sqlite3
+
+# Môi trường ảo
+venv/
+env/
+
+# File cấu hình chứa mật khẩu/Token API
+.env
+
+# File rác của hệ thống
+.DS_Store
+Thumbs.db
